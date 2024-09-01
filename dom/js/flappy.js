@@ -149,7 +149,7 @@ function FlappyBird() {
             barreiras.animar()
             passaro.animar()
 
-            if (colidiu(passaro, barreiras)) {
+            if (colisao(passaro, barreiras)) {
                 clearInterval(temporizador)
             }
         }, 20)
